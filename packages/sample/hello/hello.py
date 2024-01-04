@@ -5,11 +5,8 @@ from aiogram.utils import executor
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.dispatcher.filters import Text
 from langchain.document_loaders import NewsURLLoader
-from googletrans import Translator
 import re
 import os
-
-from openai import OpenAI
 
 # Configure bot and dispatcher
 bot = Bot(token='6799661102:AAFPZS-sYon5h1XGymwILNV00Xhy4BabbSc')
